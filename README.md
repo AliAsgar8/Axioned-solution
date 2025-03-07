@@ -1,12 +1,13 @@
-# React + Vite
+ Product List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ This is a  React application that displays a list of items with pagination, search, filtering, Responsive & User-Friendly UI, and a detailed item view.
 
-Currently, two official plugins are available:
+Features 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1) Fetech the data from API "https://dummyjson.com/products?limit=150" this is the dummy data
+2) Display the data Showing a list of items with ID, Title, and Description
+3) Apply Pagination Logic View 10 items per page with Next, Previous, First, and Last buttons and also display the current page and total page
+4) Search & Filter  Search by title or description, and sort by ID or Title
+5) Detailed View Click on an item to see more details in a modal
+6) Responsive UI  Built with Tailwind CSS for a clean and modern look
+ 
